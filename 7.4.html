@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3CX ⏴⏵ Teles </title>
+<style>
+</style>
+<link rel="icon" href="https://shop.teles.cz/img/favicon.ico?1613375636">
+<call-us 
+phonesystem-url="https://pbx.teles.cz:5001" 
+style="position:fixed;font-size:16px;line-height:17px;z-index: 99999;--call-us-main-accent-color:#f2562b;--call-us-main-background-color:#363636;--call-us-plate-background-color:#282828;--call-us-plate-font-color:#f2562b;--call-us-main-font-color:#ffffff;--call-us-agent-bubble-color:#ffffff10;right: 70px; bottom: 100px;" 
+id="wp-live-chat-by-3CX" 
+minimized="true" 
+animation-style="slideup" 
+party="LiveChat873288" 
+minimized-style="bubbleright" 
+allow-call="true" 
+allow-video="false" 
+allow-soundnotifications="true" 
+enable-mute="true" 
+enable-onmobile="true" 
+offline-enabled="true" 
+enable="true" 
+ignore-queueownership="false" 
+authentication="both" 
+operator-name="Teles s.r.o." 
+show-operator-actual-name="false" 
+aknowledge-received="true"
+operator-icon="data:image/png;base64,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" 
+gdpr-enabled="false" 
+message-userinfo-format="name" 
+message-dateformat="both" 
+lang="cs" 
+button-icon-type="default" 
+authentication-message="Prosím uveďte Vaše kontaktní informace." 
+greeting-visibility="none" 
+greeting-offline-visibility="none" 
+chat-delay="2000" 
+enable-direct-call="true" 
+enable-ga="false" 
+></call-us>
+
+<script>
+    // Function to load scripts based on screen size
+    function loadScript() {
+      var script = document.createElement('script');
+      script.defer = true;
+
+      if (window.innerWidth > 970) {
+        script.src = 'Ms_desktop_cs-pl.js';
+        script.id = 'tcx-callus-js-desktop';
+      } else {
+        script.src = 'Ms_mobile_cs-pl.js';
+        script.id = 'tcx-callus-js-mobile';
+      }
+
+      document.head.appendChild(script);
+    }
+
+    // Load the appropriate script on page load
+    window.onload = loadScript;
+
+    // Load the appropriate script on window resize
+    window.onresize = loadScript;
+  </script>
+
+<style>
+	/* Resetting default margins and paddings */
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+	body {
+		margin: 0;
+		min-width:800px;        /* Minimum width of xxx */
+		width: auto !important;  /* Firefox will set width as auto */  
+		height: 100%;
+		font-family: century gothic,Verdana, sans-serif;
+		background-color: #363636;
+		color: #333;
+		display: flex;
+		flex-direction: column;
+	}
+	/* Header bar edit */
+	header {
+		display: flex;
+		justify-content: space-between; /* Space between header items */
+		background-color: #363636;
+		color: #adadad;
+		align-items: center; /* Align items vertically */
+		padding: 0px; /* Added padding for better spacing */
+		width: 100%;
+       	margin-top: 0px;
+	}
+	/* Logo Image edit */
+	.logo img {
+		max-width: 385px; /* Adjust the image width */
+		margin-left: 200px; /* Add margin to create space between image */
+		pointer-events: none;
+	}
+	/* Header contact text and icons edit */
+	.header-text {
+		text-align: right;
+       	margin-top: 0px;
+		margin-right: 200px;
+		letter-spacing: 1px; /* Adjust letter spacing here */
+	    display: flex;
+		align-items: center;
+		padding:5px;
+		line-height: 22px;
+	}
+	/* Header only contact icons edit */
+	.contact-icons {
+		display: flex;
+		flex-direction: column;
+		gap: 1px; /* Adjust the space between icons */
+		padding-top:5px;
+	}
+	.contact-icons img {
+		width: 20px; /* Adjust the width of the icons */
+		height: auto; /* Maintain aspect ratio */
+	}
+	/* Header only contact text edit */
+	.contact-text {
+		margin-left: 20px; /* Adjust the space between icons and text */
+	}	
+	/* Everything between header and footer */
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: white; /* Set text color to white for better contrast */
+	}	
+	/* Picture displayed on bigger screens */
+	.blue_bar img {
+		width: 100%; /* Adjust the image width */
+		left: 0px; /* Ensures full width */
+		max-width: 100%; /* Limit the image width to its container */
+		pointer-events: none;
+	}
+	/* Picture displayed on smaller screens */
+	.small_bar img {
+		width: 100%; /* Adjust the image width */
+		left: 0px; /* Ensures full width */
+		max-width: 100%; /* Limit the image width to its container */
+		pointer-events: none;
+	}
+	/* Section of the text under the picture */
+	section {
+		width: 100%;
+		max-width: 1200px; /* Adjust the maximum width of the section */
+		padding: 0px; /* Adjust padding for space on each side */
+		box-sizing: border-box;
+	}	
+	/* Wrapper for the text columns */
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		line-height: 25px; /* Adjust line spacing here */
+		padding: 40px 30px 40px; /* Adjust padding for space on each side */
+		box-sizing: border-box;
+	}
+	/* Editor for smaller text */
+	.textbox {
+		text-align: center;
+		margin-bottom: 40px; /* Adjust bottom margin as needed */
+		font-size: 20px;
+		line-height:1.5;
+		white-space: nowrap; /* Prevent text from wrapping */
+	}
+	/* Editor for h1 text in orange double columns */
+	.textbox h1 {
+		color: #f2562b; /* Set the color of h1 elements */
+		font-size: 40px; /* Adjust font size */
+       	line-height: 55px; /* Adjust line spacing here */
+		white-space: nowrap; /* Prevent text from wrapping */
+	}
+	/* Editor for text main text boxes */
+	.full-width-boxes {
+ 		align-items: center;
+		display: flex;
+ 		flex-direction: column;
+		line-height: 20px; /* Adjust line spacing here */
+		width:100%;
+	}
+	/* Editor for text main text boxes wrappers*/
+	.full-width-box-wrapper,
+	.full-width-box-2-wrapper	{
+		width:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.full-width-box-wrapper {
+		background-color: #282828;
+	}
+	/* Ensure proper layout for the revised structure */
+	.full-width-box,
+	.full-width-box-1,
+	.full-width-box-2	{
+ 		padding: 60px 0 60px;
+		font-size: 20px; /* Adjust font size */
+		position: relative;
+		min-width: 1431px; /* Adjust main structure width */
+		max-width: 1920px;
+	}
+	/* Adjust smaller p text in main text boxes */
+	.full-width-box p,
+	.full-width-box-1 p,
+	.full-width-box-2 p {
+		color: inherit; /* Text color */
+		white-space: nowrap; /* Prevent text from wrapping */
+	}
+	/* Adjust h2 text in main text boxes */
+	.full-width-box h2,
+	.full-width-box-1 h2 {
+		font-size: 35px; /* Adjust font size */
+		padding: 0 0 20px;
+		letter-spacing: 0.5px; /* Adjust letter spacing here */
+		line-height: 40px; /* Adjust line spacing here */
+		text-align: left;
+		padding-left:60px;
+	}
+	/* Adjust smaller p text in main text boxes */
+	.full-width-box-2 h2  {
+		margin-right: 0px;
+		font-size: 35px; /* Adjust font size */
+		padding: 0px 0 20px;
+		flex-direction: column;
+		align-items: flex-end;
+		letter-spacing: 0.5px; /* Adjust letter spacing here */
+		line-height: 40px; /* Adjust line spacing here */
+		text-align: right;
+	}
+	/* Adjust images in main text boxes */
+	.full-width-box-2 img {
+		display: flex;
+		align-items: flex-start; /* Align to the right */
+	}
+	.full-width-box-2 .content2 {
+		width: 100%; /* Adjust width to fit text */
+	}
+	/* Adjust images and p text  in main text boxes */
+	.container-x1,
+	.container-x2{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+	.container-x2 img{
+		display: flex;
+		flex-direction: column;
+		align-self: flex-start;
+	}
+	.container-x2 .content2 {
+		width: 45%; /* Adjust width to fit text */
+		text-align: left;
+		margin-right: 0%; /* Push the image to the left */
+		align-self: flex-end;
+	}
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+		margin-top: 20px;
+		margin:10px;
+		margin-left: 60px;
+	}
+	.content2 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+		margin-top: 20px;
+		margin:10px;
+	}
+	.content p,
+	.content2 p {
+		flex-basis: calc(50% - 10px);
+		position: relative;
+	}
+	.content p::before,
+	.content2 p::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: -40px;
+		transform: translateY(-50%);
+		width: 25px;
+		height: 25px;
+		background-image: url('https://imgur.com/c9VjO6O.png');
+		background-size: cover;
+	}
+	/* Align images properly and control their sizes */
+	.money_pic img {
+		max-width: 100%;
+		margin-top: 0px; /* Adjust spacing between text and image */	
+	}
+	.chat_pic img {
+		padding-left: 60px;
+		margin-top: -40px;
+	}
+	.phone_pic img {
+		max-height: 70%;
+		padding-right: 60px;
+		margin-top: -40px;
+	}
+	 /* Position images within their respective boxes */
+	.money_pic,
+	.phone_pic{
+		position: absolute;
+		height: auto;
+		display: flex;
+		align-self: flex-end;
+	}
+	.chat_pic {
+		position: absolute;
+		vertical-align: middle;
+		padding-top: 5%;
+		height: auto;
+		display: flex;
+		align-self: flex-start;
+		margin-left: 0; /* Set margin-left to 0 */
+	}
+	/* Contact text and icons above the footer (only on small screns) */
+	.lower-text {
+		color: #8a8a8a;
+		background-color: #282828;
+		padding-bottom: 5px;
+		position: relative;
+		text-align: right;
+		justify-content: center;
+		letter-spacing: 1px; /* Adjust letter spacing here */
+	    display: flex;
+		width: 100%;
+		align-items: center;
+		font-size: 18px;
+		margin-top: 15px; /* Adjust the distance from the bottom box */
+	}	
+	/* Only icon editor for contact text (only on small screns)  */
+	.contact2-icons {
+		padding-top: 5px;
+		display: flex;
+       	flex-direction: column;
+		gap: 8px; /* Adjust the space between icons */
+		vertical-align: middle;
+	}
+	.contact2-icons img {
+		width: 18px; /* Adjust the width of the icons */
+		height: auto; /* Maintain aspect ratio */
+	}
+	/* Only text editor for lower contact text */
+	.contact2-text {
+		margin-left: 15px; /* Adjust the space between icons and text */
+		text-align: center;
+		line-height: 1.6;
+	}	
+	/* Footer editor */
+	footer {
+		position: relative;
+		bottom: 0;
+		height: 3rem;
+		background-color: #282828;
+		color: #8a8a8a;
+		text-align: center;
+		padding-top: 10px;
+		width: 100%;
+		font-size: 13px; /* Adjust font size */
+		left: 0; /* Ensures full width */
+	}
+	/* Responsive design */
+	/* Design on screens no wider than 1920px */
+	@media (max-width: 1920px) {
+		header {
+			padding: 0px ;
+			align-items: center;
+		}
+		.logo img {
+			max-width: 385px;
+			min-width: 10%;
+		}
+		.blue_bar img {
+			width: 100%; /* Make the image responsive by setting its maximum width to 100% */
+			height: auto; /* Maintain aspect ratio */
+			display: block; /* Ensure proper display on smaller screens */
+			margin: auto; /* Center the image horizontally */
+             	left: 0px; /* Ensures full width */
+		}
+
+		section {
+			font-size: 20px;
+		}
+		.textbox h1 {
+           	font-size: 35px;
+        }
+	}
+	@media (min-width: 1921px) {
+		header {
+			display: flex;
+			padding:41px 0px 41px;
+			width: 100%;
+			position: relative;
+			align-items: center;
+		}
+		.logo {
+			position: absolute;
+			left: calc(50% - 800px); /* Keep logo 400px from the center to the left */
+			max-width: calc(50% - 800px); /* Set a maximum width for the logo */
+		}
+		.header-text {
+			position: absolute;
+			right: calc(50% - 800px); /* Keep header text 400px from the center to the right */
+			max-width: calc(50% - 800px); /* Set a maximum width for the header text */
+			white-space: nowrap; /* Prevent text from wrapping */
+		}
+		.blue_bar img {
+			width: 100vw; /* Set image width to viewport width */
+			height: auto; /* Maintain aspect ratio */
+			display: block; /* Ensure proper display on larger screens */
+			margin: 0 auto; /* Center the image horizontally */
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	/* Design on screens no wider than 1650px */
+	@media (max-width: 1650px) {
+		section {
+			padding: 0;
+           	margin-left: 25vh;
+		    margin-right:15vh;
+        }
+		.full-width-box,
+		.full-width-box-1,
+		.full-width-box-2 {  
+			align-items: flex-start;
+			max-width: 0;
+			min-width: 1300px;
+			padding-right:0;
+		}
+	}
+	/* Design on screens no wider than 1480px */
+	@media (max-width: 1480px) {
+		section {
+			padding: 0;
+			margin: 0;
+		}
+		.container	{
+			width: 100%;
+			margin: 0 auto;
+			line-height: 30px;
+		}
+		.full-width-box p,
+		.full-width-box-1 p,
+		.full-width-box-2 p {
+			font-size: 16px; /* Further reduce text size */
+			line-height: 18px; /* Adjust line height */
+		}
+		.full-width-box,
+		.full-width-box-1,
+		.full-width-box-2 {  
+			align-items: flex-start;
+			max-width: 0;
+			min-width: 950px;
+			padding-right:0;
+		}
+
+		.full-width-box-2 h2,
+		.full-width-box-1 h2{
+			text-align: left;
+			white-space: nowrap; /* Prevent text from wrapping */
+			padding-left:0px;
+		}
+		.full-width-box h2{
+			padding-left:0px;
+		}
+		.content,
+		.content2 {
+			margin-left: 0px;
+		}
+		.full-width-box-2 .content2 {
+			width: 100%; /* Adjust width to fit text */
+		}
+		.money_pic,
+		.phone_pic{
+			align-self: flex-start;
+			height: auto;
+			display: auto;
+			padding-left: 600px;
+		}	
+		.chat_pic {
+			align-self: flex-start;
+			display: auto;
+			padding-left: 600px;
+		}	
+		.money_pic img {
+			max-width: 100%;
+			max-height: 80%;
+			margin-left: 0px;
+			padding: 0px;
+			vertical-align: center;
+		}
+		.chat_pic img {
+			max-height: 100%;
+			padding: 0px;
+		}
+		.phone_pic img {
+			max-width: 50%;
+			max-height: auto;
+			margin-top: 2px;
+			margin-left: 110px;
+			padding: 0px;
+		}
+	}
+	/* Design on screens wider than 1120px (hides pictures on smaller screens)*/
+	@media (max-width: 1120px) {
+		.logo {
+    		text-align: center; /* Center the logo */
+    		margin: 0 auto; /* Centering the logo horizontally */
+   		}
+   		.logo img {
+    		max-width: 60%; /* Adjust the max-width */
+    		height: auto; /* Maintain aspect ratio */
+			height: auto; /* Maintain aspect ratio */
+			margin-left: auto; /* Reset left margin */
+			margin-right: auto; /* Reset right margin */
+			margin-top: 2%;
+			margin-bottom: 2%;
+		}
+		.header-text {
+           	display: none;
+		}
+		.blue_bar img {				
+			display: none;
+		}
+		.small_bar img {
+			min-width:100%;
+			height: auto; /* Maintain aspect ratio */ 
+        }  
+		.column {
+			width: 48%; /* Adjust width as needed */
+			margin-bottom: 10px; /* Adjust margin as needed */
+			align-items: center;
+		}
+		.app_3cx,
+		.call_3cx {
+			width: 100%;
+			display: inline-block;
+			margin-bottom: 20px;
+			align-items: center;
+		}
+		.container{
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+		/* Picture appearing on smaller screens above column text */
+		.app_3cx img ,
+		.call_3cx img  {
+			max-width: 60%; /* Adjust the max-width */
+      		height: auto; /* Maintain aspect ratio */
+            display: block; /* Maintain aspect ratio */
+			margin: 0 auto; /* Align to the center horizontally */
+			justify-content: center;
+			padding-right: 5%;
+			pointer-events: none;
+		}
+		.call_3cx img  {
+			margin-bottom: 22px;
+		}
+		.full-width-box,
+		.full-width-box-1,
+		.full-width-box-2 {  
+			min-width:830px;
+			padding-right:0;
+		}
+		.full-width-box h2,
+		.full-width-box-1 h2,
+		.full-width-box-2 h2  {
+			font-size: 30px; /* Adjust font size */
+			padding: 0 px;
+			text-align: left;
+		}
+		.money_pic img{
+			width:80%;
+			margin-top: 40px;
+		}			
+		.chat_pic img{
+			width:80%;
+			margin-top:0px;
+		}
+		.phone_pic img{
+			width:40%;
+			margin-top: 40px;
+			margin-left: 60px;
+			padding: 0px;
+		}
+		.lower-text {
+			margin-top: 0px;
+		}
+		footer {
+			font-size: 18px;
+		}
+	}
+	/* Design on screens wider than 1121px (hides pictures on smaller screens)*/
+	@media (min-width: 1121px) {
+		/* Hide the images */
+		.small_bar img,
+		.app_3cx img,
+		.call_3cx img{
+			display: none; 
+		}
+		.lower-text {
+			display: none;
+		}
+	}
+	@media (max-width: 970px) {
+		.blue_bar img {				
+			display: none;
+		}
+		.small_bar img {
+			max-width: 100%; /* Make the image responsive by setting its maximum width to 100% */
+			height: auto; /* Maintain aspect ratio */ 
+		}  
+		.container	{
+			flex-direction: column;
+			padding: 0;
+		}
+		.column {
+			width: 80%; /* Adjust width as needed */
+			margin-bottom: 20px; /* Adjust margin as needed */
+		}
+		.textbox {
+			text-align: center;
+			padding-bottom: 0px;
+			width: 650px;
+        }
+		.textbox h1 {
+			line-height: 45px;
+			text-align: center;
+			padding-top: 5%
+		}
+		.container	{
+			max-width:780px;
+			padding: 0px;
+			margin:0px;
+		}
+		.app_3cx img {
+			margin-bottom: -40px;
+		}
+		.call_3cx img{
+			margin-bottom: -15px;
+			padding-left: 60px;
+		}
+		.full-width-box, 
+		.full-width-box-1,
+		.full-width-box-2{
+			padding: 60px 0px 60px;
+			min-width: 100%;
+			margin-left: 0px;
+		}
+		.content{
+			padding-left:80px;
+		}
+		.full-width-box-2  .content2{
+			width: 91%;
+			text-align: center;
+		}
+		.full-width-box h2 {
+			text-align: center;
+		}
+		.full-width-box-2 h2,
+		.full-width-box-1 h2 {
+			text-align: center;
+			white-space: normal;
+		}
+		.phone_pic {
+			margin-left: 65px;
+		}
+	}	
+	@media (min-width: 971px) {
+	}
+	@media (max-width: 820px) {
+		.full-width-box, 
+		.full-width-box-1,
+		.full-width-box-2{
+			max-width:780px;
+			min-width:780px;
+		}
+		.text-box {
+			text-align: center;
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
+			overflow-x: hidden;
+		}
+		.container	{
+			max-width:780px;
+			padding: 0px;
+			margin:0px;
+		}
+		.app_3cx img {
+			margin-bottom: -40px;
+		}
+		.call_3cx img{
+			margin-bottom: -15px;
+		}
+	}
+
+</style>
+</head>
+<body>
+	<div id="page-container">
+		<header>
+			<div class="logo">
+				<a href="https://www.teles.cz/" class="logo-link">
+					<img src="https://www.teles.cz/cx365/logo_stranky5.svg" alt="Logo">
+				</a>
+            </div>
+            <div class="header-text">
+				<div class="contact-icons">
+					<a href="https://www.teles.cz/">
+						<img src="https://www.teles.cz/cx365/web.png" alt="Web icon">
+					</a>
+					<a href="mailto:info@teles.cz">
+						<img src="https://www.teles.cz/cx365/mail.png" alt="Mail icon">
+					</a>
+					<a href="tel:+420222717700">
+						<img src="https://www.teles.cz/cx365/phone.png" alt="Phone icon">
+					</a>
+				</div>
+				<div class="contact-text">
+					<p><a href="https://www.teles.cz/">www.teles.cz</a></p>
+					<p><a href="mailto:info@teles.cz">info@teles.cz</a></p>
+					<p><a href="tel:+420222717700">+420 222 717 700</a></p>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="blue_bar">
+				<img src="https://www.teles.cz/cx365/blue_bar5.svg" alt="Blue bar">
+			</div>
+			<div class="small_bar">
+				<img src="https://www.teles.cz/cx365/blue_bar6.png" alt="Small bar">
+			</div>
+			<section class="container">
+				<div class="column">
+					<div class="app_3cx">
+						<img src="https://www.3cx.com/wp-content/uploads/2022/10/homepage-slider-image.png" alt="3cx app">
+					</div>
+					<div class="textbox">
+						<h1>Komunikujte se zákazníky</h1>
+						<p>Přeměňte návštěvníky na potenciální zákazníky</p>
+						<p>Povyšte chaty na hovory nebo videohovory</p>
+						<p>Vylepšete zákaznickou zkušenost</p>
+					</div>
+				</div>
+				<div class="column">
+					<div class="call_3cx">
+						<img src="https://www.3cx.com/wp-content/uploads/2021/08/video-conference-call.png" alt="3cx call">
+					</div>
+					<div class="textbox">
+						<h1>Týmové videokonference</h1>
+						<p>Bez zbytečných aplikací na videokonference</p>
+						<p>Nástroje pro prezentaci a vzdálenou pomoc</p>
+						<p>Snadné sdílení dokumentů, chat a hlasování</p>
+					</div>
+				</div>
+			</section>
+			<div class="full-width-boxes">
+				<div class="full-width-box-wrapper">
+					<div class="full-width-box">
+						<h2>3CX je dostupná telefonní ústředna, která se přizpůsobuje objemu vaší činnosti</h2>		
+						<div class="container-x1">		
+							<div class="content">
+								<p>Žádné měsíční poplatky, jedna nízká roční platba podle velikosti.</p>
+								<p>Vlastní SIP trunk, kontrola nad čísly a nižší platby za hovory.</p>
+								<p>Žádné přídavky, jen jednoduché licence.</p>
+								<p>Ušetřete peníze a připojte své stávající IP telefony.</p>
+								<p>Jednoduchá správa, automatické aktualizace a zálohy.</p>
+							</div>
+							<div class="money_pic">
+								<img src="https://www.3cx.com/wp-content/uploads/2022/04/cost_effective.png" alt="money_pic">
+							</div>
+						</div>			
+					</div>
+				</div>
+				<div class="full-width-box-2-wrapper">
+					<div class="full-width-box-2">
+					<h2>Rozšiřte svou kombinaci o live chat a sociální sítě</h2>
+						<div class="container-x2">
+							<div class="chat_pic">
+								<img src="https://www.3cx.com/wp-content/uploads/2022/09/live-chat-whatsapp.png" alt="chat_pic">
+							</div>							
+							<div class="content2">
+								<p>Zapojte návštěvníky webu do konverzací pomocí live chatu.</p>
+								<p>Zpřístupněte zákazníkům volání zdarma z vašich webových stránek.</p>
+								<p>Odpovídejte na pracovní zprávy WhatsApp jako tým.</p>
+								<p>Posílejte zákazníkům upomínky nebo novinky prostřednictvím SMS.</p>
+								<p>Integrujte váš CRM, abyste věděli, s kým chatujete či hovoříte.</p>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="full-width-box-wrapper">
+					<div class="full-width-box-1">
+					<h2>Mějte při sobě pracovní telefon, ať jste kdekoli</h2>
+						<div class="container-x1">
+							<div class="content">
+								<p>Využijte číslo kanceláře k přijímání hovorů na svém smartphonu.</p>
+								<p>Aplikace pro iOS/Android propojí tým pomocí hovorů, videa nebo chatu.</p>
+								<p>Zahrnuje webového klienta a počítačovou aplikaci. Ideální pro práci na dálku.</p>
+								<p>Aktualizujte svůj status, zda jste k dispozici nebo na dovolené.</p>
+								<p>Spravujte systém a uživatele na dálku odkudkoli.</p>
+							</div>
+							<div class="phone_pic">
+								<img src="https://www.teles.cz/wp-content/uploads/2021/05/Android-iPhone-202x300.png" alt="phone_pic">
+							</div>
+						</div>			
+					</div>
+				</div>
+			</div>
+			<div class="lower-text">
+				<div class="contact2-icons">
+					<a href="https://www.teles.cz/">
+						<img src="https://www.teles.cz/cx365/web.png" alt="Web icon">
+					</a>
+					<a href="mailto:info@teles.cz">
+						<img src="https://www.teles.cz/cx365/mail.png" alt="Mail icon">
+					</a>
+					<a href="tel:+420222717700">
+						<img src="https://www.teles.cz/cx365/phone.png" alt="Phone icon">
+					</a>
+				</div>
+				<div class="contact2-text">
+					<p><a href="https://www.teles.cz/">www.teles.cz</a></p>
+					<p><a href="mailto:info@teles.cz">info@teles.cz</a></p>
+					<p><a href="tel:+420222717700">+420 222 717 700</a></p>
+				</div>
+			</div>
+		</main>
+        <footer id="footer">
+			<div class="footer-text">
+				<a href="https://www.teles.cz/" id="copyright">&copy; 2023 Teles s.r.o.</a>
+			</div>
+        </footer>
+        <script>
+		// Get the current year
+		const currentYear = new Date().getFullYear();
+		// Update the footer text with the current year
+		document.getElementById('copyright').innerHTML = `&copy; ${currentYear} Teles s.r.o.`;
+		</script>
+		<script>
+			if (window.innerWidth <= 970) {
+				var mobileScript = document.createElement('script');
+				mobileScript.src = 'C:/Users/bartunek/OneDrive - TELES s.r.o/Dokumenty/Html/3CX x Teles/Implementation/Test//ms.js/ms-mobile.js';
+				document.head.appendChild(mobileScript);
+			} else {
+				var desktopScript = document.createElement('script');
+				desktopScript.src = 'C:/Users/bartunek/OneDrive - TELES s.r.o/Dokumenty/Html/3CX x Teles/Implementation/Test//ms.js';
+				document.head.appendChild(desktopScript);
+			}
+		</script>
+</body>
+
+</html>
